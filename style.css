@@ -53,8 +53,8 @@ color:#f4c542;
 /* HERO */
 
 .hero{
-height:100vh;
-padding-top:120px;
+min-height: 100vh;
+padding-top: 40px;
 background:
 linear-gradient(rgba(7,70,25,.45), rgba(25,120,45,.45)),
 url("https://i.ibb.co/0jKyVDPR/IMG-0542.jpg");
