@@ -55,7 +55,7 @@ color:#f4c542;
 .hero{
 height:100vh;
 padding-top:120px;
-background-size: cover;
+background-size: 90%;
 background-position: right center;
 background-repeat:no-repeat;
 display:flex;
