@@ -5,15 +5,21 @@ console.log("Website Loaded Successfully!");
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function(e) {
+
+        const id = this.getAttribute("href");
+
+        if (id === "#") return;
+
         e.preventDefault();
 
-        const target = document.querySelector(this.getAttribute("href"));
+        const target = document.querySelector(id);
 
-        if(target){
+        if (target) {
             target.scrollIntoView({
                 behavior: "smooth"
             });
         }
+
     });
 });
 
