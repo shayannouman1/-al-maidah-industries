@@ -23,7 +23,7 @@ top:0;
 left:0;
 width:100%;
 background:#0b5a27;
-padding:15px 8%;
+padding: 10px 5%;
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -38,12 +38,12 @@ display:block;
 }
 
 nav a{
-color:#fff;
-text-decoration:none;
-margin-left:30px;
-font-size:18px;
-font-weight:600;
-transition:.3s;
+    color:#fff;
+    text-decoration:none;
+    margin-left:15px;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
 }
 
 nav a:hover{
@@ -53,12 +53,13 @@ color:#f4c542;
 /* HERO */
 
 .hero{
-min-height: 100vh;
-padding-top: 40px;
+    min-height:85vh;
+padding-top:20px;
+padding-bottom:20px;
 background:
 linear-gradient(rgba(7,70,25,.45), rgba(25,120,45,.45)),
 url("https://i.ibb.co/0jKyVDPR/IMG-0542.jpg");
-background-size: 105%;
+background-size:cover;
 background-position: center;
 background-repeat:no-repeat;
 display:flex;
